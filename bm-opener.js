@@ -23,9 +23,9 @@
 (function() {
     'use strict';
 
-    window.openLinks = function(selector) {
-        console.log('openAll');
+    if (window.self!=window.top) {return}
 
+    window.naOpenLinks = function(selector) {
         var links = document.querySelectorAll(selector);
         links.forEach(function(link, index) {
             setTimeout(function() {
@@ -39,11 +39,11 @@
     }
 
     var content = document.querySelector('.dashboard.content'),
-        all = '<a href="#" onclick="openLinks(\'a.slug\'); return false;">Open All</a> ',
-        red = '<a href="#" onclick="openLinks(\'.red a.slug\'); return false;">Red</a> ',
-        orange = '<a href="#" onclick="openLinks(\'.orange a.slug\'); return false;">Orange</a> ',
-        blue = '<a href="#" onclick="openLinks(\'.blue a.slug\'); return false;">Blue</a> ',
-        green = '<a href="#" onclick="openLinks(\'.green a.slug\'); return false;">Green</a>';
+        all = '<a href="#" onclick="naOpenLinks(\'a.slug\'); return false;">Open All</a> ',
+        red = '<a href="#" onclick="naOpenLinks(\'.red a.slug\'); return false;">Red</a> ',
+        orange = '<a href="#" onclick="naOpenLinks(\'.orange a.slug\'); return false;">Orange</a> ',
+        blue = '<a href="#" onclick="naOpenLinks(\'.blue a.slug\'); return false;">Blue</a> ',
+        green = '<a href="#" onclick="naOpenLinks(\'.green a.slug\'); return false;">Green</a>';
 
     content.innerHTML = all + red + orange + blue + green + content.innerHTML
 })();
