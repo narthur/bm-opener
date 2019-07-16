@@ -38,12 +38,15 @@
         });
     };
 
-    var content = document.querySelector('.dashboard.content'),
+    var body = document.querySelector('body'),
+        content = document.querySelector('.dashboard.content'),
+        wrapper = document.createElement('span'),
         all = '<a href="#" onclick="naOpenLinks(\'a.slug\'); return false;">Open All</a> ',
         red = '<a href="#" onclick="naOpenLinks(\'.red a.slug\'); return false;">Red</a> ',
         orange = '<a href="#" onclick="naOpenLinks(\'.orange a.slug\'); return false;">Orange</a> ',
         blue = '<a href="#" onclick="naOpenLinks(\'.blue a.slug\'); return false;">Blue</a> ',
         green = '<a href="#" onclick="naOpenLinks(\'.green a.slug\'); return false;">Green</a>';
 
-    content.innerHTML = all + red + orange + blue + green + content.innerHTML;
+    wrapper.innerHTML = all + red + orange + blue + green;
+    body.insertBefore(wrapper, content);
 })();
