@@ -10,8 +10,8 @@
 // @license MIT; https://mit-license.org/
 // @icon https://raw.githubusercontent.com/narthur/bm-opener/master/icons8-bee-48.png
 // @homepage https://github.com/narthur/bm-opener
-// @updateURL https://raw.githubusercontent.com/narthur/bm-opener/master/bm-opener.js
-// @downloadURL https://raw.githubusercontent.com/narthur/bm-opener/master/bm-opener.js
+// @updateURL https://raw.githubusercontent.com/narthur/bm-opener/master/bm-opener.user.js
+// @downloadURL https://raw.githubusercontent.com/narthur/bm-opener/master/bm-opener.user.js
 // @supportURL https://github.com/narthur/bm-opener/issues
 // @run-at document-end
 // ==/UserScript==
