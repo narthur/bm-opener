@@ -40,7 +40,7 @@
 
     var body = document.querySelector('body'),
         content = document.querySelector('.dashboard.content'),
-        wrapper = document.createElement('span'),
+        wrapper = document.createElement('div'),
         all = '<a href="#" onclick="naOpenLinks(\'a.slug\'); return false;">Open All</a> ',
         red = '<a href="#" onclick="naOpenLinks(\'.red a.slug\'); return false;">Red</a> ',
         orange = '<a href="#" onclick="naOpenLinks(\'.orange a.slug\'); return false;">Orange</a> ',
@@ -48,5 +48,8 @@
         green = '<a href="#" onclick="naOpenLinks(\'.green a.slug\'); return false;">Green</a>';
 
     wrapper.innerHTML = all + red + orange + blue + green;
-    body.insertBefore(wrapper, content);
+
+    var node = body.insertBefore(wrapper, content);
+
+    node.style.textAlign = "center";
 })();
