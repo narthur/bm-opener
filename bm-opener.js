@@ -5,6 +5,7 @@
 // @description Add links to Beeminder dashboard for opening goals in new tabs / windows. (Icon by icons8.com)
 // @author Nathan Arthur
 // @match *://*.beeminder.com/*
+// @include *
 // @grant none
 // @copyright 2019, Nathan Arthur (http://www.nathanarthur.com/)
 // @license MIT; https://mit-license.org/
