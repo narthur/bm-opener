@@ -15,6 +15,7 @@
 // @downloadURL https://raw.githubusercontent.com/narthur/bm-opener/master/bm-opener.js
 // @supportURL https://github.com/narthur/bm-opener/issues
 // @contributionURL http://www.nathanarthur.com/
+// @run-at document-end
 // ==/UserScript==
 
 
