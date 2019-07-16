@@ -35,8 +35,8 @@
                 tab.blur();
                 window.focus();
             }, 100 * index);
-        })
-    }
+        });
+    };
 
     var content = document.querySelector('.dashboard.content'),
         all = '<a href="#" onclick="naOpenLinks(\'a.slug\'); return false;">Open All</a> ',
@@ -45,5 +45,5 @@
         blue = '<a href="#" onclick="naOpenLinks(\'.blue a.slug\'); return false;">Blue</a> ',
         green = '<a href="#" onclick="naOpenLinks(\'.green a.slug\'); return false;">Green</a>';
 
-    content.innerHTML = all + red + orange + blue + green + content.innerHTML
+    content.innerHTML = all + red + orange + blue + green + content.innerHTML;
 })();
