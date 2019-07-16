@@ -3,7 +3,7 @@
 // @namespace http://www.nathanarthur.com/
 // @version 0.1
 // @description Add links to Beeminder dashboard for opening goals in new tabs / windows. (Icon by icons8.com)
-// @author Nathan Arthur
+// @author narthur
 // @match *://*.beeminder.com/*
 // @include *
 // @grant none
