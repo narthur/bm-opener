@@ -23,7 +23,9 @@
 (function() {
     'use strict';
 
-    if (window.self!=window.top) {return}
+    if (window.self != window.top || document.querySelector('.dashboard') === null) {
+        return;
+    }
 
     window.naOpenLinks = function(selector) {
         var links = document.querySelectorAll(selector);
