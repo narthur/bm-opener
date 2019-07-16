@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Beeminder Open Tabs
 // @namespace https://www.nathanarthur.com/
-// @version 0.1
+// @version 0.2
 // @description Add links to Beeminder dashboard for opening goals in new tabs / windows. (Icon by icons8.com)
 // @match *://*.beeminder.com/*
 // @include *
