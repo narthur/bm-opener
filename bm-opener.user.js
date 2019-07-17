@@ -1,17 +1,17 @@
 // ==UserScript==
 // @name Beeminder Open Tabs
-// @namespace http://www.nathanarthur.com/
-// @version 0.1
+// @namespace https://www.nathanarthur.com/
+// @version 0.2
 // @description Add links to Beeminder dashboard for opening goals in new tabs / windows. (Icon by icons8.com)
-// @match *://*.beeminder.com/*
-// @include *
+// @match https://*.beeminder.com/*
+// @include https://*.beeminder.com/*
 // @grant none
-// @copyright 2019, Nathan Arthur (http://www.nathanarthur.com/)
+// @copyright 2019, Nathan Arthur (https://www.nathanarthur.com/)
 // @license MIT; https://mit-license.org/
 // @icon https://raw.githubusercontent.com/narthur/bm-opener/master/icons8-bee-48.png
 // @homepage https://github.com/narthur/bm-opener
-// @updateURL https://raw.githubusercontent.com/narthur/bm-opener/master/bm-opener.js
-// @downloadURL https://raw.githubusercontent.com/narthur/bm-opener/master/bm-opener.js
+// @updateURL https://raw.githubusercontent.com/narthur/bm-opener/master/bm-opener.user.js
+// @downloadURL https://raw.githubusercontent.com/narthur/bm-opener/master/bm-opener.user.js
 // @supportURL https://github.com/narthur/bm-opener/issues
 // @run-at document-end
 // ==/UserScript==
